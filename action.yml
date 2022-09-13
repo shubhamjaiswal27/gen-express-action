@@ -1,0 +1,8 @@
+name: Generate Express App
+description: This is an action which can generate express app and add to your repository
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: git-pull-request
+  color: orange
